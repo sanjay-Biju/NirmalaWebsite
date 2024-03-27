@@ -1,0 +1,1103 @@
+.main-nav-box {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  background-color: rgb(51, 64, 77);
+  position: fixed;
+  margin-bottom: 10px;
+}
+
+.nav-box-1 {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51, 64, 77);
+}
+
+.nav-box-2 {
+  width: 700px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(51, 64, 77);
+}
+
+.search-bar {
+  width: 250px;
+  height: 40px;
+}
+
+.second-nav {
+  width: 2500px;
+  height: 60px;
+  background-color: aqua;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  background-color: rgb(217, 216, 216);
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+.button-style {
+  width: 180px;
+  height: 50px;
+  color: rgb(18, 163, 115);
+  font-family: serif;
+  font-size: 25px;
+  border: none;
+  background-color: rgb(243, 249, 249);
+}
+
+.button-style:hover {
+
+  color: rgb(32, 70, 57);
+  font-family: serif;
+  border: none;
+  background-color: rgb(243, 249, 249);
+}
+
+.button-style-2 {
+  width: 180px;
+  height: 40px;
+  color: rgb(32, 126, 95);
+  font-family: serif;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(244, 243, 243);
+}
+
+.button-style-2:hover {
+
+  color: rgb(32, 70, 57);
+  font-family: serif;
+  border: none;
+  background-color: rgb(244, 243, 243);
+}
+
+.third-navbar {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(244, 243, 243);
+}
+
+.logo-box-1 {
+  width: 140px;
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 999;
+
+}
+
+.head-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.college-logo {
+  width: 110px;
+  height: 110px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.logo-box-1:hover {
+  width: 150px;
+  height: 131px;
+  transform: scale(1.1);
+  transition: 0.2s;
+
+
+}
+
+.logo-box {
+  width: 150px;
+  height: 113px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  ;
+
+
+}
+
+.adjust-logo {
+  width: 100%;
+  height: 113;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contents {
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  top: 150px;
+  z-index: 999;
+}
+
+.content-one {
+  width: 340px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #39918C;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.content-one:hover {
+  color: rgb(184, 187, 189);
+}
+
+.content-two {
+  width: 280px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  background-color: #39918C;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.content-two:hover {
+  color: rgb(184, 187, 189);
+}
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: blink 2s infinite;
+}
+
+
+
+
+.content-container {
+  width: 350px;
+  height: 170px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.moving-text {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #39918C;
+
+}
+
+.movingtext-box {
+  width: 1000px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: serif;
+  background-color: #39918C;
+}
+
+.drop-down-style {
+  position: relative;
+  border-bottom: 1px solid transparent !important;
+  text-decoration: none;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: #2f3030 !important;
+  color: aliceblue !important;
+  font-family: serif !important;
+  font-size: 14px !important;
+  transition: border-color 0.3s;
+  /* Added transition for smooth effect */
+
+}
+
+
+.drop-down-style:before,
+.drop-down-style:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0;
+  /* Set width to 50% of the parent li */
+  height: 0.1px;
+  /* Height of the border */
+  background-color: #39918C;
+  /* Color of the border */
+  transition: width 0.3s;
+  /* Added transition for smooth effect */
+}
+
+.drop-down-style:before {
+  left: 50%;
+  /* Align to the left */
+  transform: translateX(-50%);
+}
+
+.drop-down-style:after {
+  right: 50%;
+  /* Align to the right */
+  transform: translateX(50%);
+}
+
+.drop-down-style:hover {
+  border-color: rgb(147, 120, 120);
+  /* Change border color on hover */
+}
+
+.drop-down-style:hover:before,
+.drop-down-style:hover:after {
+  width: 100%;
+  /* Expand the width on hover */
+}
+
+.drop-down-menu {
+  width: 280px !important;
+  left: -40px !important;
+  background-color: #2f3030 !important;
+
+}
+
+
+.container-w-1 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px #393b3b;
+}
+
+.container-w-1-item1 {
+  width: 651px;
+  height: 420px;
+  margin-bottom: 72px;
+  border: 1px rgb(195, 191, 191);
+}
+
+.headings {
+  width: 650px;
+  height: 40px;
+  display: flex;
+  border: 1px rgb(195, 191, 191);
+}
+
+.heading-1 {
+  width: 325px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #393b3b;
+  color: aliceblue;
+  font-family: serif;
+  font-size: 18px;
+}
+
+.heading-2 {
+  width: 325px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(195, 191, 191);
+  font-family: serif;
+  font-size: 18px;
+
+
+}
+
+.heading-2:hover {
+  color: #39918C;
+  background-color: rgb(241, 245, 248);
+  transition: 0.30s;
+}
+
+.scrolling-box {
+  width: 650px;
+  height: 380px;
+  border: 1px solid rgb(195, 191, 191);
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+.scroll-item-1 {
+  width: 649px;
+  height: 100px;
+  display: flex;
+
+}
+
+.item-date {
+  width: 60px;
+  height: 100px;
+  border: 1px solid #39918C;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+.date-num-1 {
+  width: 60px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;  background-color: #39918C;
+
+}
+
+.date-num-2 {
+  width: 60px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #39918C;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.programs {
+  width: 470px;
+  height: 100px;
+  font-size: 20px;
+  margin-left: 14px;
+
+}
+
+.read-more {
+  width: 120px;
+  height: 100px;
+  font-size: 15px;
+  display: flex;
+  justify-content: baseline;
+  align-items: flex-end;
+  font-family: serif;
+
+}
+
+.read-more:hover {
+  color: rgb(150, 161, 157);
+}
+
+.container-w-1-item2 {
+  width: 490px;
+  height: 500px;
+}
+
+.container-w-1-item2-subbox-1 {
+  width: 490px;
+  height: 130px;
+
+  background-image: linear-gradient(rgba(13, 12, 12, 0.5), #3d3f3f), url('');
+}
+
+.style-for-image {
+  width: 90px;
+  height: 90px;
+
+}
+
+.container-w-1-item2-subbox-2 {
+  width: 490px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 247, 249);
+}
+
+.container-w-1-item2-subbox-2-fb {
+  width: 465px;
+  height: 350px;
+  margin-top: 5px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.college-details-fb {
+  width: 445px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.logo-for-fb {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-for-fb {
+  width: 350px;
+  height: 60px;
+
+}
+
+.fbpost-pics {
+  width: 445px;
+  border: 1px solid;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.logo-container {
+  width: 490px;
+  height: 55px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+.container-w-2 {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container-w-2 {
+  width: 1300px;
+  height: 210px;
+  display: flex;
+}
+
+.sub-container-w-2-items {
+  width: 260px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(234, 236, 238);
+  border: 1px solid white;
+  transition: width 0.3s ease, height 0.3s ease, border-radius 0.3s ease;
+
+}
+.sub-container-w-2-items:hover{
+  width: 275px;
+  height: 215px;
+  border-radius: 15px;
+  z-index: 999;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.sub-container-w-2-items-box {
+  width: 250px;
+  height: 150px;
+  background-color: rgb(234, 236, 238);
+}
+
+
+.sub-container-w-2-items-box-1 {
+  width: 60px;
+  height: 50px;
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: center;
+  align-items: center;
+  margin-left: 93px;
+
+}
+
+.sub-container-w-2-items-box-1-name {
+  width: 250px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(133, 131, 131);
+  font-size: 21px;
+
+}
+
+.cards-container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #39918C;
+}
+
+.cards-boxes-1 {
+  width: 330px;
+  height: 550px;
+  margin-left: 10px;
+  
+}
+
+
+.cards-boxes-2 {
+  width: 330px;
+  height: 630px;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+.cards-boxes-3 {
+  width: 330px;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.cards-boxes-4 {
+  width: 330px;
+  height: 550px;
+  margin-left: 10px;
+}
+
+.text-for-card-1 {
+  margin-top: 30px;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.text-for-card-2 {
+  margin-top: 40px;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.text-for-card-3 {
+  margin-top: 30px;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.text-for-card-4 {
+  margin-top: 30px;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.card-readmore {
+  font-size: 20px;
+  color: #39918C;
+  font-family: serif;
+  margin-top: 80px;
+}
+
+.card-readmore:hover {
+
+  color: #0e1111;
+
+}
+
+.image-box {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(https://nirmalacollege.ac.in/wp-content/uploads/2023/11/college_edited1-scaled.jpg);
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  background-attachment: fixed;
+
+}
+
+.first-box {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  border-radius: 10px;
+}
+
+.image-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Adjust the opacity (last value) to darken/lighten */
+  z-index: 1;
+  /* Ensure the pseudo-element is behind other content */
+}
+
+.image-box img {
+  position: relative;
+  /* Ensure the image stays on top of the pseudo-element */
+  z-index: 2;
+  /* Put the image above the pseudo-element */
+}
+
+.image-box .content {
+  position: relative;
+  /* Ensure the content stays on top */
+  z-index: 3;
+  /* Put the content above the pseudo-element */
+}
+
+.image-Box {
+  width: 150px;
+  height: 150px;
+}
+
+.content-box {
+  width: 360px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-readmore {
+  width: 70px;
+  height: 15px;
+  margin-left: 150px;
+  color: #39918C;
+}
+
+.second-box {
+  width: 380px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-image: url(https://content3.jdmagicbox.com/comp/ernakulam/i3/0484px484.x484.001005713253.v7i3/catalogue/nirmala-college-muvattupuzha-ernakulam-mca-institutes-qebg9vz80a.jpg);
+  position: relative;
+
+  /* z-index: 3; */
+
+}
+
+.second-box:hover {
+  background-color: #60d6d1;
+  z-index: 1;
+
+}
+
+.second-box::before {
+  background-color: #0e1111;
+  z-index: 1;
+}
+
+
+
+.heading-Box {
+  width: 360px;
+  height: 190px;
+  z-index: 999;
+  transition: 0.7s;
+}
+
+.heading-Box-container-1 {
+  width: 360px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+
+.heading-Box-container-2 {
+  width: 360px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-Box-container-3 {
+  width: 360px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  font-family: serif;
+}
+
+.heading-Box-container-4 {
+  width: 360px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #53dcd5;
+  text-decoration: none;
+  font-family: serif;
+
+}
+
+.third-box {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+
+}
+
+.second-last-container {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(236, 235, 234);
+}
+
+.second-last-container-boxe1 {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(217, 214, 214);
+}
+
+.second-last-container-boxe2{
+  width: 400px;
+  height: 210px;
+  
+  background-color:rgb(236, 235, 234);
+}
+.second-last-container-boxe2-sub{
+  width: 400px;
+  height: 52px;
+}
+.university-data{
+  width: 400px;
+  height: 26px;
+  display: flex;
+}
+.university-first-data{
+  width: 250px;
+  height: 26px;
+}
+.university-second-data{
+  width: 150px;
+  height: 26px;
+}
+
+
+.second-last-container-boxe3 {
+  width: 400px;
+  height: 210px;
+  background-color: rgb(236, 235, 234);
+}
+
+.second-last-container-boxe3-sub{
+  width: 400px;
+  height: 52px;
+}
+.loc-box-1{
+  width: 400px;
+  height: 26px;
+  display: flex;
+
+}
+.info-logos{
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.information{
+  width: 372px;
+  height: 26px;
+}
+.second-last-container-boxe4-sub{
+  width: 400px;
+  height: 52px;
+  display: flex;
+}
+.second-last-container-boxe4-subbox{
+  width: 240px;
+  height: 52px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.socialmedia-logos{
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-container{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #393b3b;
+}
+.last-container-sub{
+  width: 400px;
+  height: 60px;
+  display: flex;
+  font-family: serif;
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+  justify-content:center;
+  align-items: center;
+}
+.AboutNirmala{
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 247, 247);
+
+}
+.about-nirmala-sub{
+  width: 1100px;
+  height: 800px;
+}
+.about-nirmala-sub-1{
+  width: 1100px;
+  height: 100px;
+  font-size: 45px;
+  font-family: serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-nirmala-sub-2{
+  width: 1100px;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub2of1{
+  width: 380px;
+  height: 700px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(234, 234, 234);
+}
+.sub2of2{
+  width: 700px;
+  height: 700px;
+ font-size: 17px;
+ font-family: serif;
+ background-color: rgb(234, 234, 234);
+}
+.sub2of2-extra{
+  width: 700px;
+  height: 300px;
+ font-size: 17px;
+ margin-bottom: 300px;
+ font-family: serif;
+ background-color: rgb(234, 234, 234);
+}
+.sub2of2-extra-core{
+  width: 700px;
+  height: 250px;
+ font-size: 17px;
+ margin-bottom: 300px;
+ font-family: serif;
+ background-color: rgb(234, 234, 234);
+}
+.sub2of2-sub{
+  width: 700px;
+  height: 125px;
+  
+}
+.sub2of1-sub{
+  width: 340px;
+  height: 450px;
+  margin-bottom: 200px;
+
+}
+.sub2of1-sub-boxes{
+  width: 340px;
+  height: 50px;
+  display: flex;
+  font-size: 19px;
+  font-family: serif;
+  justify-content: flex-start;
+  align-items: center;
+  color: #1c9690;
+  border-bottom: 1px solid black;
+}
+.sub2of1-sub-boxes:hover{
+  text-decoration: underline;
+
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Madimi+One&display=swap');
+
+.photo-head{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+   
+}
+.gallery-headding{ 
+    font-family: "Ephesis", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    transition: font-size 0.3s ease;
+
+}
+
+.gallery-headding:hover {
+    animation: increaseFontSize 0.5s forwards; /* Start animation on hover */
+}
+
+@keyframes popLetters {
+    0% {
+        transform: scale(1) ease; /* Start with normal scale */
+    }
+    50% {
+        transform: scale(1.5) ease; /* Scale up halfway through */
+    }
+    100% {
+        transform: scale(1) ease; /* Return to normal scale */
+    }
+}
+
+/* Apply the animation to each letter of the heading */
+.gallery-headding:hover {
+    display: inline-block; /* Ensures each letter is an individual element */
+}
+
+.gallery-headding:hover span {
+    animation: popLetters 0.5s forwards; /* Apply the animation to each letter */
+    display: inline-block; /* Ensures each letter is an individual element */
+}
+
+/* Optionally, adjust spacing between letters for better readability */
+.gallery-headding:hover span:not(:last-child) {
+    margin-right: 0.2em; /* Adjust as needed */
+}
+
+.gallery{
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    justify-content: center;       
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+}
+.gallerybox{
+    width: 1500px;
+    height:1300px;
+}
+.image-container{
+    width: 100%;
+    height: 250px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.photos-box{
+    width :290px;
+    height: 245px;
+    overflow: hidden;
+    border-radius: 3px;
+    position: relative;
+    
+
+}
+.photos-box img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: cover; /* Crop the image to cover the box */
+    transition:  1s linear;
+}
+.photos-box:hover img {
+     /* Crop the image to cover the box */
+
+    transform: scale(1.7); /* Scale the image on hover */
+
+}
